@@ -1,7 +1,3 @@
-# Curso React Avançado - BoilerPlate
-
-
-
 # Como criar um projeto através do boilerplate
 
 ```bash
@@ -555,3 +551,17 @@ NODE_ENV=production yarn build
 
 depois, rodar o projeto `yarn run start`
 no chrome dev tools > lighthouse
+
+## PLOPFILE - criar arquivos templates
+
+```bash
+yarn add -D plop
+```
+
+ver config: [https://github.com/layshidani/react-avancado-boilerplate/commit/364088d4923028bb94006058ad64bf7b649855de](https://github.com/layshidani/react-avancado-boilerplate/commit/364088d4923028bb94006058ad64bf7b649855de)
+
+para usar:
+
+```bash
+yarn generator <nome-do-componente>
+```
