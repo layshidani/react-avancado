@@ -10,7 +10,7 @@
     "test:watch": "yarn test --watch",
     "lint": "eslint src --max-warnings=0",
     "storybook": "start-storybook -s ./public -p 6006 --no-dll",
-    "build-storybook": "build-storybook --no-dll"
+    "build-storybook": "build-storybook --no-dll -s ./public"
   },
   "husky": {
     "hooks": {
